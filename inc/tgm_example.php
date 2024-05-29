@@ -66,13 +66,13 @@ function bsv_eccommerce_register_required_plugins()
     /*   'required' => true, */
     /*   'external_url' => 'http://vps5.bludelego.com/plugins/all-in-one-wp-migration-7-79.zip' */
     /* ), */
-    /* array( */
-    /*   'name' => 'Advanced custom fields', */
-    /*   'slug' => 'advanced-custom-fields', */
-    /*   'source' => 'http://vps5.bludelego.com/plugins/advanced-custom-fields-pro-6_0_6.zip', */
-    /*   'required' => true, */
-    /*   'external_url' => 'http://vps5.bludelego.com/plugins/advanced-custom-fields-pro-6_0_6.zip' */
-    /* ), */
+    array( 
+      'name' => 'Advanced custom fields', 
+      'slug' => 'advanced-custom-fields', 
+      'source' => 'http://vps5.bludelego.com/plugins/advanced-custom-fields-pro-6_0_6.zip', 
+      'required' => true, 
+      'external_url' => 'http://vps5.bludelego.com/plugins/advanced-custom-fields-pro-6_0_6.zip' 
+    ), 
     /* // array( */
     /* //   'name'             => 'PDF Flipbook', */
     /* //   'slug'             => '3d-flipbook-dflip-lite', */
@@ -111,18 +111,18 @@ function bsv_eccommerce_register_required_plugins()
     /* //			'required'         => true, */
     /* //			'force_activation' => true */
     /* //		), */
-    /* array( */
-    /*   'name' => 'Classic Editor', */
-    /*   'slug' => 'classic-editor', */
-    /*   'required' => true, */
-    /*   'force_activation' => true */
-    /* ), */
-    /* array( */
-    /*   'name' => 'Easy Updates Manager', */
-    /*   'slug' => 'stops-core-theme-and-plugin-updates', */
-    /*   'required' => true, */
-    /*   'force_activation' => true */
-    /* ), */
+    array( 
+      'name' => 'Classic Editor', 
+      'slug' => 'classic-editor', 
+      'required' => true, 
+      'force_activation' => true 
+    ), 
+    array( 
+      'name' => 'Easy Updates Manager', 
+      'slug' => 'stops-core-theme-and-plugin-updates', 
+      'required' => true, 
+      'force_activation' => true 
+    ), 
     /* //    array( */
     /* //      'name'             => 'Post Duplicator', */
     /* //      'slug'             => 'post-duplicator', */
