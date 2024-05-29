@@ -19,14 +19,15 @@
       <div class="logo">
         <?php if ($logo) : ?>
           <?php if (is_front_page()) : ?>
-            <img src="<?php echo $logo; ?>" alt="">
+            <?php echo $logo; ?>
           <?php else : ?>
             <a href="<?php echo home_url(); ?>">
-              <img src="<?php echo $logo; ?>" alt="">
+              <?php echo $logo; ?>
             </a>
           <?php endif; ?>
         <?php endif; ?>
       </div>
+
       <?php wp_nav_menu([
         'theme_location'  => 'header',
         'menu'            => '',
